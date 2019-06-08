@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+    </declare-styleable>
+
+    //图表属性
+    <attr name="xtextSize" format="dimension"/>
+    <attr name="xtextColor" format="color"/>
+    <attr name="gramBackground" format="color"/>
+
+    <declare-styleable name="HistogramCharView">
+        <attr name="xtextSize"/>
+        <attr name="xtextColor"/>
+        <attr name="gramBackground"/>
+    </declare-styleable>
+</resources>
